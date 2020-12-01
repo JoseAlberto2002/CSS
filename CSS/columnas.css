@@ -1,0 +1,30 @@
+nav{
+    background: turquoise;
+    padding: 20px;
+}
+.one{
+    background: #444444;
+    color: white ;
+    padding: 20px;
+    width: 25%;
+    margin: 10px;
+}
+.two{
+    background: #444444;
+    color: white;
+    padding: 20px;
+    width: 25%;
+    margin: 10px;
+}
+.tres{
+    background: #444444;
+    color: white;
+    padding: 20px;
+    width: 25%;
+    margin: 10px;
+    
+}
+.padre{
+    display: flex ;
+
+}

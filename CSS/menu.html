@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="menu.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <button class="menu" onclick="accion()">Menu de apps</button>
+        <a href="https://www.google.com/"class="nav-enlace desaparece">Google</a>
+        <a href="https://www.facebook.com/"class="nav-enlace desaparece">Facebook</a>
+        <a href="https://www.instagram.com/"class="nav-enlace desaparece">Instagram</a>
+        <a href="https://www.uanl.mx/enlinea/"class="nav-enlace desaparece">UANL</a>
+        <a href="https://github.com/JoseAlberto2002"class="nav-enlace desaparece">github</a>
+        <a href="https://www.youtube.com/"class="nav-enlace desaparece">youtube</a>
+
+    </nav>
+    <script>
+        function accion(){
+            console.log('Esta funcionado tu boton bro');
+            var ancla= document.getElementsByClassName('nav-enlace');
+            for (var i = 0; i < ancla.length; i++){
+                ancla[i].classList.toggle('desaparece');
+            }
+        }
+    </script>
+</body>
+</html>

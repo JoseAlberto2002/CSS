@@ -1,0 +1,38 @@
+.nav-enlace{
+    display: inline-block;
+    background:blue;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+.nav-enlace:hover{
+    background: red;
+}
+nav{
+    background: royalblue;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+    background: blue ;
+    color: black;
+    padding: 10px 0;
+    border: 2px solid blue;
+    display: none;
+}
+@media(max-width:500px){
+    nav{
+        background: black;
+        flex-direction: column;
+    }
+    .nav-enlace{
+        margin: 10px;
+    }
+    .menu{
+        display: inline-block;
+    }
+    .desaparece{
+        display: none;
+    }
+}
